@@ -6,7 +6,7 @@ live_config_reload = true
 
 # Font configuration
 [font]
-normal = { family = "Iosevka Nerd Font", style = "Regular" }
+normal = { family = "Iosevka Nerd Font", style = "Medium" }
 bold = { family = "Iosevka Nerd Font", style = "Bold" }
 italic = { family = "Iosevka Nerd Font", style = "Italic" }
 bold_italic = { family = "Iosevka Nerd Font", style = "Bold Italic" }
@@ -14,42 +14,42 @@ size = 14
 
 # Window padding
 [window]
-padding = { x = 10, y = 10 }
+padding = { x = 15, y = 15 }
 decorations = "Full"
 opacity = 1.0
 
 [colors.primary]
-background = "#000000"
+background = "#111111"
 foreground = "#d8d8d8"
 dim_foreground = "#b8b8b8"
 bright_foreground = "#f0f0f0"
 
 [colors.cursor]
-text = "#101010"
+text = "#000000"
 cursor = "#d8d8d8"
 
 [colors.vi_mode_cursor]
-text = "#101010"
+text = "#000000"
 cursor = "#e0e0e0"
 
 [colors.selection]
-text = "#101010"
+text = "#000000"
 background = "#c8c8c8"
 
 [colors.search.matches]
-foreground = "#101010"
+foreground = "#000000"
 background = "#b8b8b8"
 
 [colors.search.focused_match]
-foreground = "#101010"
+foreground = "#000000"
 background = "#e0e0e0"
 
 [colors.hints.start]
-foreground = "#101010"
+foreground = "#000000"
 background = "#d8d8d8"
 
 [colors.hints.end]
-foreground = "#101010"
+foreground = "#000000"
 background = "#707070"
 
 [colors.footer_bar]
@@ -61,31 +61,34 @@ foreground = "None"
 background = "None"
 
 [colors.normal]
-black = "#101010"
+black = "#000000"
 red = "#909090"
-green = "#a0a0a0"
-yellow = "#b0b0b0"
-blue = "#9a9a9a"
-magenta = "#ababab"
-cyan = "#b8b8b8"
-white = "#d8d8d8"
+green = "#415237"
+yellow = "#99883f"
+blue = "#635a46"
+magenta = "#8f6a5a"
+cyan = "#516346"
+white = "#c7c7c7"
 
 [colors.bright]
 black = "#505050"
 red = "#ababab"
-green = "#b8b8b8"
+green = "#a0a0a0"
 yellow = "#c6c6c6"
-blue = "#b8b8b8"
-magenta = "#c0c0c0"
-cyan = "#d8d8d8"
+blue = "#9a9a9a"
+magenta = "#b8b8b8"
+cyan = "#b8b8b8"
 white = "#f0f0f0"
 
 [colors.dim]
 black = "#000000"
 red = "#707070"
-green = "#707070"
-yellow = "#8a8a8a"
-blue = "#707070"
-magenta = "#8a8a8a"
+green = "#415237"
+yellow = "#635a46"
+blue = "#505050"
+magenta = "#707070"
 cyan = "#8a8a8a"
 white = "#b8b8b8"
+
+[cursor]
+style = { shape = "Beam", blinking = "Off" }

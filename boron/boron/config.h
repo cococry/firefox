@@ -102,14 +102,14 @@ static const barmode_t  barmode             = BarTop;
 
 static const uint32_t   barmargin           = 0;
 static const uint32_t   barsize             = 36;
-static const uint32_t   barborderwidth      = 0;
+static const uint32_t   barborderwidth      = 5;
 
 /* Fully opaque bar */
 static const uint32_t   barcolor_window     = 0x000000;
 static const uint32_t   bar_alpha           = 255;
 
 static const uint32_t   barcolor_primary    = 0x000000;
-static const uint32_t   barcolor_secondary  = 0xFFFFFF;
+static const uint32_t   barcolor_secondary  = 0x111111;
 static const uint32_t   barcolor_faint      = 0x000000;
 static const uint32_t   barcolor_muted      = 0xFFFFFF;
 static const uint32_t   barcolor_accent     = 0xFFFFFF;

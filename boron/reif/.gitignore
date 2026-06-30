@@ -1,0 +1,6 @@
+*.json
+./lib/
+./tests/bin
+./tests/
+.cache
+./tests/.cache/
